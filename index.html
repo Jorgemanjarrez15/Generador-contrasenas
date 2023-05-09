@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de contraseñas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="generar-contraseña">
+    <h1>Generear contraseña</h1>
+    <span class="password"></span>
+    <div class="btns">
+      <button class="generar">Generar</button>
+      <button class="copiar">Copiar</button>
+    </div>
+  </div>
+  <div class="guardar-password">
+    <div class="nombre-contrasena">
+      <form action="" class="form-guardar">
+        <legend>Guardar contraseña</legend>
+        <input type="text" id="contrasena-generada" placeholder="Pegue aqui su contraseña">
+        <input type="text" id="name-pass" placeholder="Nombre de contraseña">
+        <p class="info">El nombre es para que recuerde de donde es la contraseña</p>
+        <button class="btn-guardar">Guardar</button>
+      </form>
+    </div>
+    <div class="almacenar-password">
+      <ul class="pass-list">
+        <!-- <li class="pass-item">
+          <p><strong>Contraseña</strong>: <span class="contraseña"></span></p>
+          <p><strong>Nombre</strong>:<span class="nombre"></span></p>
+        </li>
+        <li class="pass-item">
+          <p><strong>Contraseña</strong>: <span class="contraseña"></span></p>
+          <p><strong>Nombre</strong>:<span class="nombre"></span></p>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

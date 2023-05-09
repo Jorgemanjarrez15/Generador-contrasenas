@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #343D50;
+  color: #fff;
+  font-family: sans-serif;
+}
+.generar-contraseña{
+  width: 90%;
+  height: 30vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 2rem;
+}
+.password{
+  width: 150px;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.generar, .copiar{
+  width: 100px;
+  padding: .5rem;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.guardar-password{
+  width: 90%;
+  height: 65vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nombre-contrasena{
+  width: 40%;
+  height: 90%;
+}
+.nombre-contrasena form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  padding: 1rem
+}
+.nombre-contrasena form legend{
+  font-size: 20px;
+  font-weight: 700;
+}
+#name-pass, #contrasena-generada{
+  width: 100%;
+  padding: .5rem;
+  outline: none;
+  border: none;
+}
+.info{
+  font-size: 10px;
+}
+.btn-guardar{
+  width: 150px;
+  padding: .5rem;
+  background-color: green;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.almacenar-password{
+  width: 40%;
+  height: 90%;
+  background-color: #ffd;
+  border-radius: 8px;
+}
+.pass-list{
+  width: 100%;
+  height: 100%;
+  padding: 1rem;  
+  overflow-y: scroll;
+}
+.pass-item{
+  width: 100%;
+  list-style: none;
+  color: #000;
+  padding: .5rem;
+  -webkit-box-shadow: 9px 9px 5px -7px rgba(0,0,0,0.57);
+  -moz-box-shadow: 9px 9px 5px -7px rgba(0,0,0,0.57);
+  box-shadow: 9px 9px 5px -7px rgba(0,0,0,0.57);
+}
